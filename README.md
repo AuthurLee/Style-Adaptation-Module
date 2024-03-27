@@ -12,6 +12,7 @@ Codes for [Style Adaptation module: Enhancing detector robustness to inter-manuf
 data=data/mt500.yaml
 model=cfg/training/style_yolov7.yaml
 trainFile=train_sa.py
+
 python $trainFile --weights '' --data $data --cfg $model --batch-size 16 --epochs 50 --cache-images --device 0 --hyp data/hyp.scratch.p5.yaml --with_target_labels --double_stream --transfer_loss norm2
 ```
 
