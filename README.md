@@ -1,4 +1,4 @@
-# Style-Adaptation-Module
+# Style Adaptation module: Enhancing detector robustness to inter-manufacturer variability in surface defect detection
 
 Codes for [Style Adaptation module: Enhancing detector robustness to inter-manufacturer variability in surface defect detection](https://doi.org/10.1016/j.compind.2024.104084), implemented in [YOLOv7](https://github.com/WongKinYiu/yolov7).
 
