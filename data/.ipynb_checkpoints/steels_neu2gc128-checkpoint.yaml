@@ -1,0 +1,8 @@
+source: /root/autodl-nas/Datasets/steel/steel_yolo/NEU.txt
+target: /root/autodl-nas/Datasets/steel/steel_yolo/GC10_128/GC10_t128.txt
+val: /root/autodl-nas/Datasets/steel/steel_yolo/GC10_128/GC10_r128.txt
+test: /root/autodl-nas/Datasets/steel/steel_yolo/GC10_128/GC10_r128.txt
+
+nc: 11
+
+names: ["0", "inclusion", "patches", "3", "rolled-in_scale", "5", "6", "7", "8", "9", "10"]

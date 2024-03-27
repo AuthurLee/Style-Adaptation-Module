@@ -1,0 +1,8 @@
+source: /root/autodl-nas/Sets/src.txt
+target: /root/autodl-nas/Sets/tgts_n/t_500/t_500.txt
+val: /root/autodl-nas/Sets/tgts_n/t_500/r_500.txt
+test: /root/autodl-nas/Sets/tgts_n/t_500/r_500.txt
+
+nc: 6
+
+names: ['chamfer', 'multifaceted', 'bump', 'impurity', 'crack', 'grind']
